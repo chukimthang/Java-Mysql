@@ -160,14 +160,14 @@ public class MyConnect {
             System.err.println("Delete error \n" + ex.toString());
         }
     }
-
-    public static void main(String[] args) {
-        MyConnect myConnect = new MyConnect();
-        myConnect.connect();
+//
+//    public static void main(String[] args) {
+//        MyConnect myConnect = new MyConnect();
+//        myConnect.connect();
 //        myConnect.showData(myConnect.getDataId(1));
-//        myConnect.delete(2);
-//        myConnect.insert(new Student(2, "Lê Đức Phúc", (float) 8.6)); 
-        myConnect.update(3, new Student(3, "Nguyen Manh Quang", (float) 6.5));
-        myConnect.showData(myConnect.getData());
-    }
+        //myConnect.delete(2);
+//        myConnect.insert(new Student(2, "Le Duc Phuc", (float) 8.6)); 
+//        myConnect.update(3, new Student(3, "Nguyen Manh Quang", (float) 6.5));
+//        myConnect.showData(myConnect.getData());
+//    }
 }

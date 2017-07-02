@@ -17,6 +17,11 @@ public class Student {
 
     public Student() {
     }
+    
+    public Student(String name, float point) {
+        this.name = name;
+        this.point = point;
+    }
 
     public Student(int id, String name, float point) {
         this.id = id;
